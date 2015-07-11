@@ -1,6 +1,6 @@
 <?php
 /*
-	Plugin Name: Jogar Mais - WP Security
+	Plugin Name: WP Security by Jogar Mais
 	Plugin URI: http://jogarmais.com.br
 	Version: 1.0.0
 	Author: Victor Freitas
