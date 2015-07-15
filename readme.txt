@@ -1,4 +1,4 @@
-=== Jogar Mais - WP Security ===
+=== WP Security by Jogar Mais ===
 Contributors: Victor Freitas
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=X7BF5KKYQMA8E
 Tags: security, remove version, wp generator
