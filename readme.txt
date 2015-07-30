@@ -1,10 +1,12 @@
 === WP Security by Jogar Mais ===
-Contributors: Victor Freitas
+
+Author URL: http://jogarmais.com.br
+Contributors: victorfreitas1
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=X7BF5KKYQMA8E
 Tags: security, remove version, wp generator
-Requires at least: 2.0.0
-Tested up to: 4.2.2
-Stable tag: 0.1
+Requires at least: 3.0.0
+Tested up to: 4.2.3
+Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
