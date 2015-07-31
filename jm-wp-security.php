@@ -1,13 +1,13 @@
 <?php
 /*
-Plugin Name: WP Security by Jogar Mais
-Plugin URI: http://jogarmais.com.br
-Version: 1.0.0
-Author: Victor Freitas
-Author URI: http://jogarmais.com.br
-License: GPL2
-Text Domain: jm-wp-security
-Description: Remover de forma automática a versão do WordPress do conteúdo HTML de qualquer parte do site.
+	Plugin Name: WP Security
+	Plugin URI: http://jogarmais.com.br
+	Version: 1.0.1
+	Author: Victor Freitas
+	Author URI: http://jogarmais.com.br
+	License: GPL2
+	Text Domain: jm-wp-security
+	Description: Remover de forma automática a versão do WordPress do conteúdo HTML de qualquer parte do site.
 */
 
 namespace JM\Security;

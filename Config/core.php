@@ -4,7 +4,7 @@
  *
  * @package Jogar Mais WP Security
  * @author  Victor Freitas
- * @version 1.0
+ * @version 1.0.1
  */
 
 namespace JM\Security;

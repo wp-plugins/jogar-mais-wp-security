@@ -5,7 +5,7 @@
  * @package Jogar Mais WP Security
  * @subpackage Security
  * @author Victor Freitas
- * @since 1.0
+ * @since 1.0.1
  */
 
 namespace JM\Security;
@@ -31,10 +31,10 @@ class Remove_Controller
 	 * @since 1.0
 	 * @return integer.
 	 */
-	private function _jm_filemtime_generator( $uri )
+	private function _filemtime_generator( $uri )
 	{
         $uri    = parse_url( $uri );
-        $handle = @fsockopen( $uri['host'], 80 );
+        $handle = fsockopen( $uri['host'], 80 );
 
         if ( ! $handle )
             return 0;
@@ -113,7 +113,7 @@ class Remove_Controller
 		$path_fix = str_replace( '\\', Init::DS, realpath( esc_html( $_SERVER['DOCUMENT_ROOT'] ) ) );
 		$parse    = ( object ) parse_url( $src );
 
-		$version  = $this->_jm_filemtime_generator( $file[0] );
+		$version  = $this->_filemtime_generator( $file[0] );
 		$mod_date = date( 'dmyHis', $version );
 
 		if ( file_exists( $path_fix . $parse->path ) ) :
